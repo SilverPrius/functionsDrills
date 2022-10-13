@@ -79,11 +79,11 @@
    *
    * Hint: use a default parameter.
   //  */
-  const multiply = (a = a * 2,b) => {
-    return a * b
-    }
-    console.log(multiply(5,4))
-    console.log(multiply(5,))
+  // const multiply = (a = a * 2,b) => {
+  //   return (a * b)
+  // }
+  //   console.log(multiply(5,4))
+  //   console.log(multiply(5))
   
   
   /*
@@ -93,14 +93,18 @@
    */
   
   /** Starter Code */
-  // function makePerson(firstname, lastname) {
-  //   firstname: firstname,
-  //     lastname: lastname
-  // }
+
+//   class Person{
+//   constructor(firstname, lastname) {
+//     this.firstname = firstname;
+//       this.lastname = lastname
+      
+//   }
+// }
+//   const zakk = new Person('Zakk', 'F')
+//   const jimmy = new Person('Jimmy', 'B')
   
-  // const zakk = makePerson('Zakk', 'F')
-  // const jimmy = makePerson('Jimmy', 'B')
-  
+//   console.log(zakk)
   
   /*
    * Prompt 8:
@@ -114,7 +118,6 @@
    *
    * Write a function that returns an array. The array can be of anything.
    */
-  
   
   /*
    * Prompt 10:
@@ -151,9 +154,9 @@
    */
   
   /** Starter Code */
-  const testFunc = () => {
-    console.log(testFunc('This works!'))
-  }
+  // const testFunc = () => {
+  //   console.log(testFunc('This works!'))
+  // }
   
   
   
@@ -170,9 +173,13 @@
   // }
   
   
-  /*
-   * Prompt 15:
-   *
-   * Write a function that returns another function. Have the inner function print
-   * the string "hello world"
-   */
+  
+  //  * Prompt 15:
+  //  *
+  //  * Write a function that returns another function. Have the inner function print
+  //  * the string "hello world"*/
+  
+//   const print = (message) => {
+//     console.log(message);
+// }
+// print("hello world");/
